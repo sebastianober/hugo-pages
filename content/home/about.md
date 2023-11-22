@@ -6,6 +6,7 @@ draft: false
 weight: 3002
 title: "About"
 ---
+### Vision and scope
 
 The CDT will enable students to develop new fundamental AI capabilities in the context of a diversity of complex systems. Rather than working in isolation, as is usual in AI, the students will learn to develop these in a collaborative manner tied to a specific application domain. In particular, the CDT will comprise three topics:
 
