@@ -1,0 +1,30 @@
+---
+title: "Talks"
+author: ["Carl Henrik Ek"]
+lastmod: 2020-12-08T23:32:48+01:00
+draft: false
+weight: 2003
+noauthor: true
+nocomment: true
+nodate: true
+nopaging: true
+noread: true
+widget: "pages"
+headless: true
+page_type: "talk"
+design:
+    view: [2]
+menu:
+  main:
+    weight: 2003
+    identifier: "talks"
+---
+
+## Machine Learning and the Physical World {#machine-learning-and-the-physical-world}
+
+This is another talk
+
+
+## Machine Learning and the Scientific Principle {#machine-learning-and-the-scientific-principle}
+
+This is my talk

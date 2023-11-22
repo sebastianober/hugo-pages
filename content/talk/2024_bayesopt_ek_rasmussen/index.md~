@@ -1,0 +1,24 @@
+---
+title: "Bayesian optimisation"
+author: ["Carl Henrik Ek"]
+lastmod: 2023-11-10T21:14:03+00:00
+draft: false
+weight: 4001
+event: "Projects 2024"
+authors: ["carlhenrikek"]
+summary: "Principles of sequential decision making in Bayesian Optimisation"
+---
+
+Bayesian optimisation (BO) is an important and commonly used technique to search for the optima of an either unknown function or a function that is very computationally expensive to evaluate. BO is extensively used in an industrial settings and are solving real and important problems.
+
+The premise of BO is that we create a statistical surrogate model \\(p(f)\\) of the function that encodes our beliefs about its structure. This prior belief is then updated with the observations \\(Y=\\{y\_i \\}\_{i=1}^N\\) that we observe to reach a posterior belief \\(p(f\mid Y)\\). The goal is to use this posterior belief to efficiently search for the extremum of the function. Traditionally this is done by formulating a function called an _acquisition_ function that takes as input our current belief over of the function. The modelling and inference of the statistical model is based on sound established principles the notion of an acquisition function is less principled and more of an ad-hoc structure. While this have been shown to work well in practice it means that the decision outcome is hard to explain and justify from principle.
+
+In this project we want to study the decision process with a perspective from statistical inference. We will take inspiration from the field of Probabilistic Numerics [1]. which is the study of how to interpret the computational process as statistical inference. Probabilistic Numerics formulates a computational process using the following components, a latent quantity \\(u\\) from which we want to extract a specific quantity of interest \\(\hat{f}\\). The operation generating this quantity is called the _quantity of interest operator_. If the latent quantity is unknown as in BO we try to design a computational process using a _information operator_ that queries the latent quantity and an _algorithm_ that aims to estimate the _quantity of interest_ from a finite  This interpretation of BO implies that we are interested viewing the search problem for the _minima_ \\(f\_{min}\\) of a function as the following problem,
+\\[
+p(f\_{min}\mid Y) = \int p(f\_{min}\mid f)p(f\mid Y) \textrm{d}f.
+\\]
+The posterior distribution above is challenging to formulate. This project will focus on both understanding current methods in terms of approximations to the above posterior and as mean of developing new more principled ways of addressing the problem.
+
+**References**
+
+1.  Hennig, P., Osborne, M. A., &amp; Kersting, H. P. (2022). Probabilistic numerics: computation as machine learning.

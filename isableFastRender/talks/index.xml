@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Science Accelerator</title>
+    <link>//localhost:1313/talks/</link>
+      <atom:link href="//localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Wed, 09 Dec 2020 23:16:57 +0100</lastBuildDate>
+    <image>
+      <url>//localhost:1313/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Talks</title>
+      <link>//localhost:1313/talks/</link>
+    </image>
+    
+    <item>
+      <title>Talks</title>
+      <link>//localhost:1313/talks/talks/</link>
+      <pubDate>Wed, 09 Dec 2020 23:16:57 +0100</pubDate>
+      <guid>//localhost:1313/talks/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning and the Physical World</title>
+      <link>//localhost:1313/talks/neil/</link>
+      <pubDate>Wed, 09 Dec 2020 23:16:57 +0100</pubDate>
+      <guid>//localhost:1313/talks/neil/</guid>
+      <description>&lt;p&gt;This is a full talk that should appear on its own page and handle \[x = 3\]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,292 @@
+#+hugo_base_dir: ../
+#+hugo_auto_set_lastmod: t
+#+hugo_front_matter_format: yaml
+#+hugo_custom_front_matter: :showMeta false :showActions false :comments false :math true
+#+EXCLUDE_TAGS: noexport
+* Decision Making CDT
+:PROPERTIES:
+:EXPORT_HUGO_SECTION:
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+** Home Base
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: home
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :type widget_page :headless true
+:END:
+*** Home
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:END:
+    
+*** About
+:PROPERTIES:
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :title About
+:END:
+
+The CDT will enable students to develop new fundamental AI capabilities in the context of a diversity of complex systems. Rather than working in isolation, as is usual in AI, the students will learn to develop these in a collaborative manner tied to a specific application domain. In particular, the CDT will comprise three topics:   
+
+Uncertainty in complex systems (UQ). Human and AI collaborative decision making requires principled uncertainty quantification. The CDT will develop leading-edge probabilistic machine learning methods, leveraging uncertainty in a statistical manner to drive the exploration of new parameter spaces and promote scientific discovery. With a focus on the methodological and theoretical aspects, the CDT will provide impact across any field where decision-making is critical. Uncertainty quantification and modelling will underpin the following two topics of the CDT: 
+
+Decision-making with humans in the loop (DMHL).  By acknowledging that the human user, in many cases, is unable to fully specify the details computer systems require, and by jointly modelling the machine learning task and the user, AI technologies will be more efficient in addressing key challenges such as experimental design from scarce data and domain shift, as well as promoting trust in AI-enabled systems.  
+
+Decision-making for ML systems (DMML). Increasingly, several automated decision-making systems are being built by a composition of individual machine learning components making decisions at the component level. For scientific systems that produce huge data volumes, so-called “big science” (e.g., SKA, CERN), AI-driven decisions are increasingly necessary to replace human decisions at multiple points within scientific analyses and facility operations. The CDT will look at automated AI approaches that can ensure such systems combination is robust, safe and accurate.  
+
+Model interpretability and explainability will be transversal to the three topics above. Decision making with AI needs to be interpretable and explainable to facilitate interrogation of decision processes such that trust can be built by the human, and it is essential for understanding and meeting ethical and legal implications. 
+
+*** Projects
+:PROPERTIES:
+:EXPORT_FILE_NAME: projects
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: toml
+:END:
+#+begin_src toml :front_matter_extra t
+# A Recent and Upcoming Talks section created with the Pages widget.
+# This section displays recent talks from `content/talk/`.
+
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+#headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+#weight = 70  # Order that this section will appear.
+
+#title = "CDT Projects 2024"
+#subtitle = "Accelerate Winter School"
+
+[content]
+  # Page type to display. E.g. post, talk, or publication.
+  page_type = "talk"
+
+  # Choose how much pages you would like to display (0 = all pages)
+  count = 0
+
+  # Choose how many pages you would like to offset by
+  offset = 0
+
+  # Page order. Descending (desc) or ascending (asc) date.
+  order = "asc"
+
+  # Filter posts by a taxonomy term.
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+    author = ""
+    exclude_featured = false
+    exclude_past = false
+    exclude_future = false
+
+[design]
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 3
+
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+
+  # Background color.
+  # color = "navy"
+
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+
+  # Background image.
+  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+  # Text color (true=light or false=dark).
+  # text_color_light = true
+
+[advanced]
+ # Custom CSS.
+ css_style = ""
+
+ # CSS class.
+ css_class = ""
+
+#+end_src    
+*** Pr                                                           :noexport:
+:PROPERTIES:
+:EXPORT_FILE_NAME: projects
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: toml
+:END:
+*** People
+:PROPERTIES:
+:EXPORT_FILE_NAME: people
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: toml
+:END:
+#+begin_src toml :front_matter_extra t
+# A "Meet the Team" section created with the People widget.
+# This section displays people from `content/authors/` which belong to the `user_groups` below.
+
+widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
+active = true  # Activate this widget? true/false
+subtitle = ""
+
+[content]
+  # Choose which groups/teams of users to display.
+  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+  user_groups = ["Supervisor"]
+
+[design]
+  # Show user's social networking links? (true/false)
+  show_social = false
+
+  # Show user's interests? (true/false)
+  show_interests = false
+
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+  
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  # image = "background.jpg"  # Name of image in `static/media/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+  # Text color (true=light or false=dark).
+  # text_color_light = true  
+  
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
+    #+end_src
+** Projects
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: talk
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :type widget_page :headless true :active true
+:END:
+*** Projects 2024
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :event "Projects 2024"
+:END:
+**** Bayesian Optimisation
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: 2024_bayesopt_ek_rasmussen
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :url_slides "" :url_video ""
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :authors '("carlhenrikek")
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :summary "Principles of sequential decision making in Bayesian Optimisation"
+:EXPORT_TITLE: Bayesian optimisation
+:END:
+
+Bayesian optimisation (BO) is an important and commonly used technique to search for the optima of an either unknown function or a function that is very computationally expensive to evaluate. BO is extensively used in an industrial settings and are solving real and important problems.
+
+The premise of BO is that we create a statistical surrogate model $p(f)$ of the function that encodes our beliefs about its structure. This prior belief is then updated with the observations $Y=\{y_i \}_{i=1}^N$ that we observe to reach a posterior belief $p(f\mid Y)$. The goal is to use this posterior belief to efficiently search for the extremum of the function. Traditionally this is done by formulating a function called an /acquisition/ function that takes as input our current belief over of the function. The modelling and inference of the statistical model is based on sound established principles the notion of an acquisition function is less principled and more of an ad-hoc structure. While this have been shown to work well in practice it means that the decision outcome is hard to explain and justify from principle.
+
+In this project we want to study the decision process with a perspective from statistical inference. We will take inspiration from the field of Probabilistic Numerics [1]. which is the study of how to interpret the computational process as statistical inference. Probabilistic Numerics formulates a computational process using the following components, a latent quantity $u$ from which we want to extract a specific quantity of interest $\hat{f}$. The operation generating this quantity is called the /quantity of interest operator/. If the latent quantity is unknown as in BO we try to design a computational process using a /information operator/ that queries the latent quantity and an /algorithm/ that aims to estimate the /quantity of interest/ from a finite  This interpretation of BO implies that we are interested viewing the search problem for the /minima/ $f_{min}$ of a function as the following problem,
+\[
+p(f_{min}\mid Y) = \int p(f_{min}\mid f)p(f\mid Y) \textrm{d}f.
+\]
+The posterior distribution above is challenging to formulate. This project will focus on both understanding current methods in terms of approximations to the above posterior and as mean of developing new more principled ways of addressing the problem.
+
+*References*
+1) Hennig, P., Osborne, M. A., & Kersting, H. P. (2022). Probabilistic numerics: computation as machine learning.
+
+** People
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors
+:END:   
+*** Template User
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: template-user
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :active true :superuser false
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :role ""
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :organizations '(("- name" . "") ("  url" . "")("- name" . "Webpage") ("  url" . ""))
+:END:
+#+begin_src yaml :front_matter_extra t
+# Interests to show in About widget
+interests:
+  - Interests
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Organizational groups that you belong to (for People widget)
+#   Remove this if you are not using the People widget.
+user_groups:
+- Supervisor
+#+end_src
+
+Text about yourself
+
+*** Carl Rasmussen
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: carlrasmussen
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :active true :superuser false
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :role "Professor of Machine Learning"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :organizations '(("- name" . "University of Cambridge") ("  url" . "http://www.eng.cam.ac.uk/")("- name" . "Webpage") ("  url" . "https://mlg.eng.cam.ac.uk/carl/"))
+:END:
+#+begin_src yaml :front_matter_extra t
+# Interests to show in About widget
+interests:
+  - Interests
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Organizational groups that you belong to (for People widget)
+#   Remove this if you are not using the People widget.
+user_groups:
+- Supervisor
+#+end_src
+
+I'm a professor in the Machine Learning Group and head of the Computational and Biological Learning Lab in the Division of Information Engineering at the Department of Engineering in Cambridge. I work on machine learning and on climate change. I don't travel professionally by air because it destroys the habitability of earth.
+Research
+
+I'm interested in the theory and practice of understanding and building systems that learn and make decisions. Humans have an exceptional ability to learn from experience, which sets them apart from current artificial intelligent (AI) systems. To understand human learning and design better AI we need principled approaches to learning and decision making based on Bayesian inference in machine learning. My interests span: probabilistic inference, reinforcement learning, approximate inference (variational and MCMC), decision making, non-parametric modeling, stochastic processes and efficient learning.
+
+My first mentor was David Willshaw; I completed my MSc with Lars Kai Hansen and PhD with Geoff Hinton.
+*** Carl Henrik Ek
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: carlhenrikek
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :active true :superuser false
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :role "Associate Professor Machine Learning"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :organizations '(("- name" . "University of Cambridge") ("  url" . "http://www.cst.cam.ac.uk")("- name" . "Webpage") ("  url" . "http://carlhenrik.com"))
+:END:
+#+begin_src yaml :front_matter_extra t
+# Interests to show in About widget
+interests:
+  - Probabilistic Modelling
+  - Bayesian non-parametrics
+  - Probabilistic Numerics
+  - Reinforcement Learning
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Organizational groups that you belong to (for People widget)
+#   Remove this if you are not using the People widget.
+user_groups:
+- Supervisor
+
+image:
+  image: "avatar.png"
+  caption: "Carl Henrik Ek"
+  focal_point: Right
+
+#+end_src
+My name is Carl Henrik Ek and I am a Associate Professor in the Computer Laboratory at the University of Cambridge, UK. and a Docent in Machine Learning at the Royal Institute of Technology, Sweden.
+
+Learning is the task of associating a new phenomena to previous knowledge. Knowledge is the capability of providing structure to the environment. In the field of machine learning we try to build methods that are capable of learning from data. The fundamental aspect of learning is assumptions, being the realisation of knowledge, the science of machine learning is concerned with how to formulate assumptions into mathematics (modelling) and how to related them to observed data (inference). My research focus spans both these areas, in specific I am interested in how we can specify data efficient and interpretable assumptions that allows us to learn from small amounts of data. Most of my work is focused on Bayesian non-parametric methods and in specific Gaussian processes. 
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:

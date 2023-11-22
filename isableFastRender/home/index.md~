@@ -1,0 +1,13 @@
+---
+title: "Home"
+author: ["Carl Henrik Ek"]
+lastmod: 2020-12-08T23:42:16+01:00
+draft: false
+weight: 2001
+type: "widget_page"
+headless: true
+menu:
+  main:
+    weight: 2001
+    identifier: "home"
+---

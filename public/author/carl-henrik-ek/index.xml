@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carl Henrik Ek | Decision Making in Complex Systems</title>
+    <link>https://carlhenrik.com/cdt-man-cam/author/carl-henrik-ek/</link>
+      <atom:link href="https://carlhenrik.com/cdt-man-cam/author/carl-henrik-ek/index.xml" rel="self" type="application/rss+xml" />
+    <description>Carl Henrik Ek</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2023</copyright><lastBuildDate>Fri, 10 Nov 2023 20:49:51 +0000</lastBuildDate>
+    <image>
+      <url>https://carlhenrik.com/cdt-man-cam/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Carl Henrik Ek</title>
+      <link>https://carlhenrik.com/cdt-man-cam/author/carl-henrik-ek/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian optimisation</title>
+      <link>https://carlhenrik.com/cdt-man-cam/talk/2024_bayesopt_ek_rasmussen/</link>
+      <pubDate>Fri, 10 Nov 2023 21:14:03 +0000</pubDate>
+      <guid>https://carlhenrik.com/cdt-man-cam/talk/2024_bayesopt_ek_rasmussen/</guid>
+      <description>&lt;p&gt;Bayesian optimisation (BO) is an important and commonly used technique to search for the optima of an either unknown function or a function that is very computationally expensive to evaluate. BO is extensively used in an industrial settings and are solving real and important problems.&lt;/p&gt;
+&lt;p&gt;The premise of BO is that we create a statistical surrogate model \(p(f)\) of the function that encodes our beliefs about its structure. This prior belief is then updated with the observations \(Y=\{y_i \}_{i=1}^N\) that we observe to reach a posterior belief \(p(f\mid Y)\). The goal is to use this posterior belief to efficiently search for the extremum of the function. Traditionally this is done by formulating a function called an &lt;em&gt;acquisition&lt;/em&gt; function that takes as input our current belief over of the function. The modelling and inference of the statistical model is based on sound established principles the notion of an acquisition function is less principled and more of an ad-hoc structure. While this have been shown to work well in practice it means that the decision outcome is hard to explain and justify from principle.&lt;/p&gt;
+&lt;p&gt;In this project we want to study the decision process with a perspective from statistical inference. We will take inspiration from the field of Probabilistic Numerics [1]. which is the study of how to interpret the computational process as statistical inference. Probabilistic Numerics formulates a computational process using the following components, a latent quantity \(u\) from which we want to extract a specific quantity of interest \(\hat{f}\). The operation generating this quantity is called the &lt;em&gt;quantity of interest operator&lt;/em&gt;. If the latent quantity is unknown as in BO we try to design a computational process using a &lt;em&gt;information operator&lt;/em&gt; that queries the latent quantity and an &lt;em&gt;algorithm&lt;/em&gt; that aims to estimate the &lt;em&gt;quantity of interest&lt;/em&gt; from a finite  This interpretation of BO implies that we are interested viewing the search problem for the &lt;em&gt;minima&lt;/em&gt; \(f_{min}\) of a function as the following problem,
+\[
+p(f_{min}\mid Y) = \int p(f_{min}\mid f)p(f\mid Y) \textrm{d}f.
+\]
+The posterior distribution above is challenging to formulate. This project will focus on both understanding current methods in terms of approximations to the above posterior and as mean of developing new more principled ways of addressing the problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hennig, P., Osborne, M. A., &amp;amp; Kersting, H. P. (2022). Probabilistic numerics: computation as machine learning.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

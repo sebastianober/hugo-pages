@@ -1,0 +1,28 @@
+---
+title: "Machine Learning and the Physical World"
+author: ["Carl Henrik Ek"]
+date: 2021-02-03T10:00:00+01:00
+lastmod: 2020-12-08T23:38:51+01:00
+draft: false
+weight: 3001
+noauthor: true
+nocomment: true
+nodate: true
+nopaging: true
+noread: true
+widget: "pages"
+headless: true
+page_type: "talk"
+authors: "Neil D. Lawrence"
+url_slides: "http://carlhenrik.com"
+url_code: "apa"
+event: "Accelerate Winter 2020"
+design:
+    view: [2]
+menu:
+  main:
+    weight: 3001
+    identifier: "machine-learning-and-the-physical-world"
+---
+
+This is another talk

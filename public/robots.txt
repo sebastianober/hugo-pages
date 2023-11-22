@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://carlhenrik.com/cdt-man-cam/sitemap.xml

@@ -1,0 +1,275 @@
+#+hugo_base_dir: ../
+#+hugo_auto_set_lastmod: t
+#+hugo_front_matter_format: yaml
+#+hugo_custom_front_matter: :showMeta false :showActions false :comments false :math true
+#+EXCLUDE_TAGS: noexport
+* Decision Making CDT
+:PROPERTIES:
+:EXPORT_HUGO_SECTION:
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+** Home Base
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: home
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :type widget_page :headless true
+:END:
+*** Home
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:END:
+    
+*** About
+:PROPERTIES:
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :title About
+:END:
+
+The CDT will enable students to develop new fundamental AI capabilities in the context of a diversity of complex systems. Rather than working in isolation, as is usual in AI, the students will learn to develop these in a collaborative manner tied to a specific application domain. In particular, the CDT will comprise three topics:   
+
+Uncertainty in complex systems (UQ). Human and AI collaborative decision making requires principled uncertainty quantification. The CDT will develop leading-edge probabilistic machine learning methods, leveraging uncertainty in a statistical manner to drive the exploration of new parameter spaces and promote scientific discovery. With a focus on the methodological and theoretical aspects, the CDT will provide impact across any field where decision-making is critical. Uncertainty quantification and modelling will underpin the following two topics of the CDT: 
+
+Decision-making with humans in the loop (DMHL).  By acknowledging that the human user, in many cases, is unable to fully specify the details computer systems require, and by jointly modelling the machine learning task and the user, AI technologies will be more efficient in addressing key challenges such as experimental design from scarce data and domain shift, as well as promoting trust in AI-enabled systems.  
+
+Decision-making for ML systems (DMML). Increasingly, several automated decision-making systems are being built by a composition of individual machine learning components making decisions at the component level. For scientific systems that produce huge data volumes, so-called “big science” (e.g., SKA, CERN), AI-driven decisions are increasingly necessary to replace human decisions at multiple points within scientific analyses and facility operations. The CDT will look at automated AI approaches that can ensure such systems combination is robust, safe and accurate.  
+
+Model interpretability and explainability will be transversal to the three topics above. Decision making with AI needs to be interpretable and explainable to facilitate interrogation of decision processes such that trust can be built by the human, and it is essential for understanding and meeting ethical and legal implications. 
+
+*** Projects
+:PROPERTIES:
+:EXPORT_FILE_NAME: projects
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: toml
+:END:
+#+begin_src toml :front_matter_extra t
+# A Recent and Upcoming Talks section created with the Pages widget.
+# This section displays recent talks from `content/talk/`.
+
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+#headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+#weight = 70  # Order that this section will appear.
+
+#title = "Recent & Upcoming Talks"
+#subtitle = "Accelerate Winter School"
+
+[content]
+  # Page type to display. E.g. post, talk, or publication.
+  page_type = "talk"
+
+  # Choose how much pages you would like to display (0 = all pages)
+  count = 0
+
+  # Choose how many pages you would like to offset by
+  offset = 0
+
+  # Page order. Descending (desc) or ascending (asc) date.
+  order = "asc"
+
+  # Filter posts by a taxonomy term.
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+    author = ""
+    exclude_featured = false
+    exclude_past = false
+    exclude_future = false
+
+[design]
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 2
+
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+
+  # Background color.
+  # color = "navy"
+
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+
+  # Background image.
+  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+  # Text color (true=light or false=dark).
+  # text_color_light = true
+
+[advanced]
+ # Custom CSS.
+ css_style = ""
+
+ # CSS class.
+ css_class = ""
+
+#+end_src    
+*** People
+:PROPERTIES:
+:EXPORT_FILE_NAME: people
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: toml
+:END:
+#+begin_src toml :front_matter_extra t
+# A "Meet the Team" section created with the People widget.
+# This section displays people from `content/authors/` which belong to the `user_groups` below.
+
+widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
+active = true  # Activate this widget? true/false
+subtitle = ""
+
+[content]
+  # Choose which groups/teams of users to display.
+  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+  user_groups = ["Speaker Winter 2021","Organiser Winter 2021","CDT-management"]
+
+[design]
+  # Show user's social networking links? (true/false)
+  show_social = false
+
+  # Show user's interests? (true/false)
+  show_interests = false
+
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+  
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  # image = "background.jpg"  # Name of image in `static/media/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+  # Text color (true=light or false=dark).
+  # text_color_light = true  
+  
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
+    #+end_src
+** Projects
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :type widget_page :headless true :active true
+:END:
+*** Projects 2024
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :event "Projects 2024"
+:END:
+**** Bayesian Optimisation
+:PROPERTIES:
+:EXPORT_HUGO_SECTION*: 2024_bayesianoptimisation_carlhenrikek_carlrasmussen
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :url_slides "" :url_video ""
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :authors '(carlhenrikek)
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :summary "Principles of sequential decision making in Bayesian Optimisation"
+:EXPORT_TITLE: Bayesian optimisation
+:END:
+
+This project will be about
+
+** People
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: author
+:END:   
+*** TEMPLATE                                                       :noexport:
+    :PROPERTIES:
+    :EXPORT_HUGO_SECTION*:
+    :EXPORT_FILE_NAME: _index
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :active true :superuser false
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :role ""
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :organizations '(("- name" . "") ("  url" . "")("- name" . "Webpage") ("  url" . ""))
+    :END:
+    #+begin_src yaml :front_matter_extra t
+# Interests to show in About widget
+interests:
+  - Interests
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Organizational groups that you belong to (for People widget)
+#   Remove this if you are not using the People widget.
+user_groups:
+- Speaker Winter 2021
+#+end_src
+    
+    I like pizza
+*** Jessica Montgomery
+    :PROPERTIES:
+    :EXPORT_HUGO_SECTION*: jessicamontgomery
+    :EXPORT_FILE_NAME: _index
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :active true :superuser false
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :role "Executive Director, Accelerate Program for Scientific Discovery"
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :organizations '(("- name" . "University of Cambridge") ("  url" . "http://www.cst.cam.ac.uk"))
+    :END:
+    #+begin_src yaml :front_matter_extra t
+# Interests to show in About widget
+interests:
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Organizational groups that you belong to (for People widget)
+#   Remove this if you are not using the People widget.
+user_groups:
+- Speaker Winter 2021
+    #+end_src
+
+    Jessica is currently Executive Director of the Accelerate Programme for Scientific Discovery, a new initiative developing AI tools and collaborations to tackle scientific challenges. She is also Director of the Data Trusts Initiative, a project tackling the actions needed to create trustworthy data governance frameworks.
+
+    Her interests in AI and its consequences for science and society stem from her policy career, in which she worked with parliamentarians, leading researchers and civil society organisations to bring scientific evidence to bear on major policy issues. At the Royal Society, Jessica established and led a wide-ranging programme of policy development, public dialogue and international engagement that explored the frontiers of AI technologies and their implications for society. She worked with senior researchers, policymakers, civil society and industry to identify emerging policy needs and develop policy frameworks to enable safe and rapid deployment of these technologies. In her prior role as a Senior Clerk at the House of Commons, Jessica advised MPs on parliamentary procedure and practice. While advising a number of select committees – including Transport; Business, Innovation, and Skills; Regulatory Reform; and Science and Technology – Jessica managed inquiries into a range of science and policy issues, bringing evidence into the heart of political decision-making.
+    
+*** Carl Henrik Ek
+:PROPERTIES:
+:EXPORT_HUGO_SECTION*: carlhenrikek
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :active true :superuser false
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :role "Associate Professor Machine Learning"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :organizations '(("- name" . "University of Cambridge") ("  url" . "http://www.cst.cam.ac.uk")("- name" . "Webpage") ("  url" . "http://carlhenrik.com"))
+:END:
+#+begin_src yaml :front_matter_extra t
+# Interests to show in About widget
+interests:
+  - Gaussian Processes
+  - Probabilistic Numerics
+  - Reinforcement Learning
+  - Bayesian Statistics 
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Organizational groups that you belong to (for People widget)
+#   Remove this if you are not using the People widget.
+user_groups:
+- CDT-management
+
+image:
+  image: "avatar.png"
+  caption: "Carl Henrik Ek"
+  focal_point: Right
+
+#+end_src
+I do things
+*
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:

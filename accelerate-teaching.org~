@@ -1,0 +1,37 @@
+#+hugo_base_dir: .
+#+hugo_auto_set_lastmod: t
+#+hugo_front_matter_format: yaml
+#+EXCLUDE_TAGS: noexport
+* Science Accelerator
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION:
+  :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
+  :EXPORT_HUGO_WEIGHT: auto
+  :EXPORT_HUGO_MENU: :menu "main"
+  :EXPORT_FILE_NAME: _index
+  :END:
+  
+** Home
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: _index
+   :END:
+
+   This is the landing page
+   
+** Talks   
+   :PROPERTIES:
+   :EXPORT_HUGO_SECTION: talk
+   :END:
+
+*** Machine Learning and the Scientific Principle
+    :PROPERTIES:
+    :EXPORT_HUGO_SECTION: talk/ml_science
+    :EXPORT_FILE_NAME: _index
+    :END:
+
+    This is one of the talks
+    
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:

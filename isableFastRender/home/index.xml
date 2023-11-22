@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home | Science Accelerator</title>
+    <link>//localhost:1313/home/</link>
+      <atom:link href="//localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Home</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Acclerate Program 2020</copyright><lastBuildDate>Tue, 08 Dec 2020 23:32:51 +0100</lastBuildDate>
+    <image>
+      <url>//localhost:1313/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Home</title>
+      <link>//localhost:1313/home/</link>
+    </image>
+    
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/home/about/</link>
+      <pubDate>Tue, 08 Dec 2020 23:32:51 +0100</pubDate>
+      <guid>//localhost:1313/home/about/</guid>
+      <description>&lt;p&gt;In this apa&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>//localhost:1313/home/talks/neil/talks/</link>
+      <pubDate>Tue, 08 Dec 2020 23:46:43 +0100</pubDate>
+      <guid>//localhost:1313/home/talks/neil/talks/</guid>
+      <description>&lt;h2 id=&#34;machine-learning-and-the-physical-world&#34;&gt;Machine Learning and the Physical World&lt;/h2&gt;
+&lt;p&gt;This is another talk&lt;/p&gt;
+&lt;h2 id=&#34;machine-learning-and-the-scientific-principle&#34;&gt;Machine Learning and the Scientific Principle&lt;/h2&gt;
+&lt;p&gt;This is my talk&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>//localhost:1313/home/talks/</link>
+      <pubDate>Tue, 08 Dec 2020 23:32:51 +0100</pubDate>
+      <guid>//localhost:1313/home/talks/</guid>
+      <description>&lt;h2 id=&#34;machine-learning-and-the-physical-world&#34;&gt;Machine Learning and the Physical World&lt;/h2&gt;
+&lt;p&gt;This is another talk&lt;/p&gt;
+&lt;h2 id=&#34;machine-learning-and-the-scientific-principle&#34;&gt;Machine Learning and the Scientific Principle&lt;/h2&gt;
+&lt;p&gt;This is my talk&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
