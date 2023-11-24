@@ -1,5 +1,5 @@
 ---
-title: Anirbit Mukherjee
+title: "Anirbit Mukherjee"
 author: ["Anirbit Mukherjee"]
 lastmod: 2023-11-10T20:49:51+00:00
 draft: false
@@ -8,13 +8,15 @@ active: true
 superuser: false
 role: "Lecturer in Machine Learning"
 organizations:
-  - name: ""
-    url: ""
+  - name: "University of Manchester"
+    url: "https://www.manchester.ac.uk/"
   - name: "Webpage"
     url: ""
+    
 # Interests to show in About widget
 interests:
   - Interests
+
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
