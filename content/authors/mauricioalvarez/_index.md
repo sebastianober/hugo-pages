@@ -12,11 +12,11 @@ organizations:
     url: "https://www.manchester.ac.uk/"
   - name: "Webpage"
     url: "https://maalvarezl.github.io/"
-<!--
+
 # Interests to show in About widget
 interests:
   - Interests
--->  
+  
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
