@@ -15,7 +15,17 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Interests
+  - Probabilistic modelling
+  - Bayesian non-parametrics
+  - Kernel methods
+  - Stochastic processes
+  - Bayesian optimisation
+  - High-dimensional statistics
+  - Longitudinal data analysis
+  - Computer emulation
+  - Computational biology
+  - Diffusion MRI
+  - Machine learning for air pollution
   
 # Highlight the author in author lists? (true/false)
 highlight_name: false
