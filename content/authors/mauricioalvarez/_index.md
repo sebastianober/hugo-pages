@@ -10,7 +10,7 @@ role: "Senior Lecturer in Machine Learning"
 organizations:
   - name: "University of Manchester"
     url: "https://www.manchester.ac.uk/"
-  - name: "Webpage"
+  - name: "Personal Webpage"
     url: "https://maalvarezl.github.io/"
 
 # Interests to show in About widget
