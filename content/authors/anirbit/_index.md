@@ -1,11 +1,12 @@
 ---
-title: Anirbit
-author: ["Carl Henrik Ek"]
+title: Anirbit Mukherjee
+author: ["Anirbit Mukherjee"]
 lastmod: 2023-11-10T20:49:51+00:00
 draft: false
 weight: 3001
 active: true
 superuser: false
+role: "Lecturer in Machine Learning"
 organizations:
   - name: ""
     url: ""
