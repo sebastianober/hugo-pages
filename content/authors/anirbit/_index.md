@@ -14,8 +14,10 @@ organizations:
     url: ""
     
 # Interests to show in About widget
-interests:
-  - Interests
+Interests
+  - Provable Deep-Learning Algorithms
+  - Solving PDEs via Neural Nets - PINNs and Neural Operators
+  - Complexity Theory for Neural Nets 
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
