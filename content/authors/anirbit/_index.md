@@ -11,10 +11,8 @@ organizations:
   - name: "University of Manchester"
     url: "https://www.manchester.ac.uk/"
 # Interests to show in About widget
-Interests
-  - Provable Deep-Learning Algorithms
-  - Solving PDEs via Neural Nets - PINNs and Neural Operators
-  - Complexity Theory for Neural Nets 
+interests:
+  - Interests
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
