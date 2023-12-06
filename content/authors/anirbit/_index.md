@@ -10,9 +10,6 @@ role: "Lecturer in Machine Learning"
 organizations:
   - name: "University of Manchester"
     url: "https://www.manchester.ac.uk/"
-  - name: "Webpage"
-    url: ""
-    
 # Interests to show in About widget
 Interests
   - Provable Deep-Learning Algorithms
@@ -26,6 +23,13 @@ highlight_name: false
 #   Remove this if you are not using the People widget.
 user_groups:
 - Supervisor
+
+image:
+  image: "avatar.JPG"
+  caption: "Anirbit Mukherjee"
+  focal_point: Right
 ---
+
+
 
 I am a Lecturer (Assistant Professor) in Computer Science at The University of Manchester. 
