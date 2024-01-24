@@ -1,6 +1,7 @@
 ---
 title: "Using deep probabilistic machine learning to understand cellular decision-making"
 author: ["Mauricio Alvarez"]
+lastmod: 2024-01-24T22:47:03+00:00
 draft: false
 weight: 4001
 event: "Projects 2024"
