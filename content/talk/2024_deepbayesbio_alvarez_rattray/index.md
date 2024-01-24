@@ -1,24 +1,23 @@
 ---
-title: "Bayesian optimisation"
-author: ["Carl Henrik Ek"]
-lastmod: 2023-11-10T21:14:03+00:00
+title: "Using deep probabilistic machine learning to understand cellular decision-making"
+author: ["Mauricio Alvarez"]
 draft: false
 weight: 4001
 event: "Projects 2024"
-authors: ["carlhenrikek","carlrasmussen"]
-summary: "Principles of sequential decision making in Bayesian Optimisation"
+authors: ["mauricioalvarez","magnusrattray"]
+summary: "A critical question in developmental biology is how cells know when to differentiate into a new cell type. Recent advances in spatial transcriptomics provide an unprecedented increase in the spatial resolution of high-throughput gene expression measurements. In the proposed project, the student will develop machine learning methods for learning spatio-temporal dynamical models from such data to uncover the rules guiding cells to differentiate into new cell types over time."
 ---
 
-Bayesian optimisation (BO) is an important and commonly used technique to search for the optima of an either unknown function or a function that is very computationally expensive to evaluate. BO is extensively used in an industrial settings and are solving real and important problems.
+Developmental biology is concerned with understanding how a complex organism is formed starting from a single fertilized egg. Fundamental concepts from developmental biology are important for understanding many areas of biology and medicine; for example, developmental biology can provide us with a better understanding of genetic disorders, stem cell therapies, synthetic organoids or cancer biology. The key question in all of these systems is how do cells know when to differentiate into a new cell-type? Recent advances in spatial transcriptomics provide an unprecedented increase in the spatial resolution of high-throughput gene expression measurements [1]. In the proposed project the student will develop machine learning methods for learning spatio-temporal dynamical models from such data, in order to uncover the rules guiding cells to differentiate into new cell-types over time. The student will have access to high-resolution spatial transcriptomics data collected from a time course of embryonic development in Drosophila, a model organism that has been incredibly useful in characterising the function of many important developmental genes. The data will have single-cell resolution across the entire embryo, quantifying the expression of hundreds of key regulatory genes within each cell. This unique data resource will be used to infer gene regulatory network models capturing how genes regulate one another to orchestrate early development of a complex organism. 
 
-The premise of BO is that we create a statistical surrogate model \\(p(f)\\) of the function that encodes our beliefs about its structure. This prior belief is then updated with the observations \\(Y=\\{y\_i \\}\_{i=1}^N\\) that we observe to reach a posterior belief \\(p(f\mid Y)\\). The goal is to use this posterior belief to efficiently search for the extremum of the function. Traditionally this is done by formulating a function called an _acquisition_ function that takes as input our current belief over of the function. The modelling and inference of the statistical model is based on sound established principles the notion of an acquisition function is less principled and more of an ad-hoc structure. While this have been shown to work well in practice it means that the decision outcome is hard to explain and justify from principle.
+Rattray, the co-supervisor in the project, recently used differential equation models coupled with Gaussian process inference in this biological system [2]. By fitting these models to time course gene expression data from RNA-Seq experiments (without spatial resolution) they were able to learn about mRNA degradation rates and provide insights into the regulation of the degradation process. The new experimental data will have single cell spatial resolution, potentially enabling the fitting of spatial partial differential equation (PDE) models describing the spatio-temporal changes in gene expression. One promising approach to learning PDE models from data are Latent Force Models [3,4] which have already been applied to lower dimensional embryonic development data and models. Another promising approach to modelling cellular dynamics is based on concepts such as pseudotime and RNA velocity, typically applied to non-spatial single-cell data. Our collaborator, Guido Sanguinetti, recently supervised the development of NeuroVelo, an interpretable model of cellular dynamics that uses a neural ODE approach [5]. During the project the student will have the opportunity to visit the Sanguinetti lab to explore similar methods that can be applied to spatially resolved time course data. 
 
-In this project we want to study the decision process with a perspective from statistical inference. We will take inspiration from the field of Probabilistic Numerics [1]. which is the study of how to interpret the computational process as statistical inference. Probabilistic Numerics formulates a computational process using the following components, a latent quantity \\(u\\) from which we want to extract a specific quantity of interest \\(\hat{f}\\). The operation generating this quantity is called the _quantity of interest operator_. If the latent quantity is unknown as in BO we try to design a computational process using a _information operator_ that queries the latent quantity and an _algorithm_ that aims to estimate the _quantity of interest_ from a finite  This interpretation of BO implies that we are interested viewing the search problem for the _minima_ \\(f\_{min}\\) of a function as the following problem,
-\\[
-p(f\_{min}\mid Y) = \int p(f\_{min}\mid f)p(f\mid Y) \textrm{d}f.
-\\]
-The posterior distribution above is challenging to formulate. This project will focus on both understanding current methods in terms of approximations to the above posterior and as mean of developing new more principled ways of addressing the problem.
+In the proposed project the student will investigate and adapt machine learning approaches to fitting spatio-temporal models of gene regulation to data obtained from high-dimensional spatial time course data. These models will help us to better understand the mechanisms underlying cellular decision making in complex organisms. The learned models will then be used to design environmental and genetic perturbation experiments, carried out by our collaborators, to test hypotheses about developmental decision making and robustness. 
 
 **References**
 
-1.  Hennig, P., Osborne, M. A., &amp; Kersting, H. P. (2022). Probabilistic numerics: computation as machine learning.
+[1] Marx, V. (2021). Method of the Year: spatially resolved transcriptomics. Nature methods, 18(1), 9-14.
+
+[2] Forbes Beadle, L., Love, J. C., Shapovalova, Y., Artemev, A., Rattray, M., & Ashe, H. L. (2023). Combined modelling of mRNA decay dynamics and single-molecule imaging in the Drosophila embryo uncovers a role for P-bodies in 5′ to 3′ degradation. PLoS Biology, 21(1), e3001956.
+
+[3] Alvarez, M. A., Luengo, D., & Lawrence, N. D. (2013). Linear latent force models using Gaussian processes. IEEE transactions on pattern analysis and machine intelligence, 35(11), 2693-2705.

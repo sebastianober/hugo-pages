@@ -22,3 +22,4 @@ The posterior distribution above is challenging to formulate. This project will 
 **References**
 
 1.  Hennig, P., Osborne, M. A., &amp; Kersting, H. P. (2022). Probabilistic numerics: computation as machine learning.
+
