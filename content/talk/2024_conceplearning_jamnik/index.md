@@ -17,7 +17,7 @@ There are many aspect of concept learning that still need addressing. In this pr
 
 2. The newly discovered concepts may or may not denote obvious high-level interpretable pieces of knowledge. For example, in images, a new concept can be visualised and be interpreted. In other data modalities (e.g., genomics) it may not be obvious what the new concept denotes. One can use domain experts (e.g., medics) to manually inspect new concepts and determine if they are meaningful, but this is expensive. Alternatively, the direction here is to build methods for automatically naming newly discovered concepts. One way that may be promising is to leverage the power of large language models to exploit the existing knowledge bases (e.g., ontologies, knowledge graphs, digital repositories of articles, etc) to find out if the newly discovered concept is a known concept in the domain and thus name it.
 
-3. Concept learning models allow for interventions of mispredicted concepts which in turn improves the model’s performance as well as allows a human-in-the-loop interaction with domain experts. Exploring how interventions can be done in an efficient, effective and automatic way is the direction of research here. 
+3. Concept learning models allow for interventions of mispredicted concepts which in turn improves the model’s performance as well as allows a human-in-the-loop interaction with domain experts. Exploring how interventions can be done in an efficient, effective and automatic way is the direction of research here.
 
 ***References***
 
