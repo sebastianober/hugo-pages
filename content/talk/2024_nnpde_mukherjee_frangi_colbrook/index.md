@@ -5,7 +5,7 @@ lastmod: 2024-01-24T22:47:03+00:00
 draft: false
 weight: 4001
 event: "Projects 2024"
-authors: ["anirbitmukherjee","alexfrangi","matthewcolbrook"]
+authors: ["anirbit","alexfrangi","matthewcolbrook"]
 summary: "This project plans to pioneer new frontiers in A.I. focusing on solving dynamical systems in use across physics, chemistry, engineering, and cardiology. This research proposal will establish new foundations to address possibilities and paradoxes in the broad theme of AI-for-Science and thus help define the limits of feasible deep learning. The Ph.D. student trained via this program will emerge with expertise in niche areas of A.I. that are poised to become critical in the near future."
 ---
 
