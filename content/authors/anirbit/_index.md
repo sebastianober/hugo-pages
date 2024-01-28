@@ -10,9 +10,14 @@ role: "Lecturer in Machine Learning"
 organizations:
   - name: "University of Manchester"
     url: "https://www.manchester.ac.uk/"
+  - name: "Personal Webpage"
+    url: "https://sites.google.com/view/anirbit/home"
 # Interests to show in About widget
 interests:
-  - Interests
+  - Theory of Deep Learning
+  - Theory of Stochastic Optimization
+  - Theory of Operator Learning and PDE Solving by Neural Nets
+  - Scientific Machine Learning
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -30,4 +35,8 @@ image:
 
 
 
-I am a Lecturer (Assistant Professor) in Computer Science at The University of Manchester. 
+I am a Lecturer (Assistant Professor) in Computer Science at The University of Manchester. I am also a member of, [The Centre for A.I. Fundamentals](https://www.ai-fun.manchester.ac.uk/). 
+
+I am deeply intrigued about how deep-learning and neural nets seem to land us at exciting new questions about differential equations and functional analysis. I aspire to unravel these emerging questions in mathematics. 
+
+
