@@ -35,16 +35,16 @@ Lastly, we note that similar questions as above can also be asked in the context
 
 [CAH22]  Matthew J Colbrook, Vegard Antun, and Anders C Hansen. The difficulty of computing stable and accurate neural networks: On the barriers of deep learning and Smale’s 18th problem. Proceedings of the National Academy of Sciences, 119(12):e2107151119, 2022.  
 
-[CLL]  ETH CAM Lab Lectures. Deep learning in scientific computing 2023.  https://youtube.com/playlist?list=PLJkYEExhe7rYY5HjpIJbgo-tDZ3bIAqAm&feature=shared   
+[CLL]  ETH CAM Lab Lectures. Deep learning in scientific computing 2023. [https://youtube.com/playlist?list=PLJkYEExhe7rYY5HjpIJbgo-tDZ3bIAqAm&feature=shared](https://youtube.com/playlist?list=PLJkYEExhe7rYY5HjpIJbgo-tDZ3bIAqAm&feature=shared)   
 
 [CT24]  Matthew J. Colbrook and Alex Townsend. Rigorous data-driven computation of spectral properties of Koopman operators for dynamical systems. Communications on Pure and Applied Mathematics, 77(1):221–283, 2024.  
 
-[GM22]  Pulkit Gopalani and Anirbit Mukherjee. Global Convergence of SGD On Two Layer Neural Nets. https: // doi. org/ 10. 48550/ arXiv. 2210. 11452 , 2022. 
+[GM22]  Pulkit Gopalani and Anirbit Mukherjee. [Global Convergence of SGD On Two Layer Neural Nets.](https://doi.org/10.48550/arXiv.2210. 11452), 2022. 
 
-[MR23]  Anirbit Mukherjee and Amartya Roy. Size Lowerbounds for Deep Operator Networks. https: // doi. org/ 10. 48550/ arXiv. 2308. 06338 , 2023.
+[MR23]  Anirbit Mukherjee and Amartya Roy. [Size Lowerbounds for Deep Operator Networks].(https://doi.org/10.48550/arXiv.2308.06338), 2023.
 
 [MRR+21]  Matthew J Muckley, Bruno Riemenschneider, Alireza Radmanesh, Sunwoo Kim, Geunu Jeong, Jingyu Ko, Yohan Jun, Hyungseob Shin, Dosik Hwang, Mahmoud Mostapha, et al. Results of the 2020 fastMRI challenge for machine learning MR image reconstruction. IEEE transactions on medical imaging, 40(9):2306–2317, 2021.
   
-[RPO23]  Deep Ray, Orazio Pinti, and Assad A Oberai. Deep learning and computational physics (lecture notes). https: // doi. org/ 10. 48550/ arXiv. 2301. 00942 , 2023.
+[RPO23]  Deep Ray, Orazio Pinti, and Assad A Oberai. [Deep learning and computational physics (lecture notes).](https://doi.org/10.48550/arXiv.2301.00942), 2023.
   
 [ZLR+17]  Chiyuan Zhang, Qianli Liao, Alexander Rakhlin, Karthik Sridharan, Brando Miranda, Noah Golowich, and Tomaso Poggio. Musings on deep learning: Properties of sgd. Technical report, Center for Brains, Minds and Machines (CBMM), 2017. 
