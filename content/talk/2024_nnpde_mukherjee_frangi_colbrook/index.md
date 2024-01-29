@@ -44,7 +44,7 @@ Lastly, we note that similar questions as above can also be asked in the context
 [MR23]  Anirbit Mukherjee and Amartya Roy. [Size Lowerbounds for Deep Operator Networks].(https://doi.org/10.48550/arXiv.2308.06338), 2023.
 
 [MRR+21]  Matthew J Muckley, Bruno Riemenschneider, Alireza Radmanesh, Sunwoo Kim, Geunu Jeong, Jingyu Ko, Yohan Jun, Hyungseob Shin, Dosik Hwang, Mahmoud Mostapha, et al. Results of the 2020 fastMRI challenge for machine learning MR image reconstruction. IEEE transactions on medical imaging, 40(9):2306–2317, 2021.
-  
+
 [RPO23]  Deep Ray, Orazio Pinti, and Assad A Oberai. [Deep learning and computational physics (lecture notes).](https://doi.org/10.48550/arXiv.2301.00942), 2023.
-  
+
 [ZLR+17]  Chiyuan Zhang, Qianli Liao, Alexander Rakhlin, Karthik Sridharan, Brando Miranda, Noah Golowich, and Tomaso Poggio. Musings on deep learning: Properties of sgd. Technical report, Center for Brains, Minds and Machines (CBMM), 2017. 
