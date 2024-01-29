@@ -14,7 +14,7 @@ organizations:
     url: "https://research.manchester.ac.uk/en/persons/richard.allmendinger"
 
 # Interests to show in About widget
-
+interests:
   - Optimization
   - Machine learning
   - Reinforcement learning
