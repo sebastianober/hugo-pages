@@ -6,26 +6,23 @@ draft: false
 weight: 3002
 active: true
 superuser: false
-role: "Senior Lecturer in Machine Learning"
+role: "Incoming Senior Lecturer in Machine Learning"
 organizations:
   - name: "University of Manchester"
     url: "https://www.manchester.ac.uk/"
   - name: "Personal Webpage"
-    url: "https://maalvarezl.github.io/"
+    url: "https://www.homepages.ucl.ac.uk/~ucabriv/"
 
 # Interests to show in About widget
 interests:
-  - Probabilistic modelling
-  - Bayesian non-parametrics
-  - Kernel methods
-  - Stochastic processes
-  - Bayesian optimisation
-  - High-dimensional statistics
-  - Longitudinal data analysis
-  - Computer emulation
-  - Computational biology
-  - Diffusion MRI
-  - Machine learning for air pollution
+  - Machine Learning
+  - Statistical Learning Theory
+  - Risk bounds, PAC-Bayes bounds
+  - Optimisation, Generalisation
+  - Stochastic approximations/processes
+  - Mathematical Statistics
+  - High-dimensional probability/statistics
+
   
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -36,7 +33,9 @@ user_groups:
 - Supervisor
 ---
 
-Mauricio A Álvarez is a Senior Lecturer (Associate Professor) in Machine Learning in the Department of Computer Science at the University of Manchester. He is also a member of the [Manchester Centre for AI Fundamentals](https://www.idsai.manchester.ac.uk/research/centre-for-ai-fundamentals/) 
+I am an incoming Senior Lecturer (Associate Professor) in Machine Learning in the Department of Computer Science at the University of Manchester, where I will be a member of the [Manchester Centre for AI Fundamentals](https://www.idsai.manchester.ac.uk/research/centre-for-ai-fundamentals/). 
 
-Dr Álvarez is interested in machine learning in general, its interplay with mathematics and statistics and its applications. In particular, his research interests include probabilistic models, kernel methods, and stochastic processes. He works on the development of new probabilistic models and their application in different engineering and scientific areas, including Neuroscience, Neural Engineering, Systems biology, and Humanoid Robotics.
+For about the first half of 2024 I continue to be a Senior Research Fellow in the Department of Statistical Science at University College London, where I lead the research group [DELTA](https://www.homepages.ucl.ac.uk/~ucabriv/delta.html).
+
+My work is on machine learning research. This field is fascinating! One of the things I enjoy most about it being the confluence of maths and stats, and computer science experiments, to answer research questions. Besides statistical learning I am interested also in other learning frameworks such as online learning and reinforcement learning, and of course deep learning, which is quite popular these days. It looks that optimisation is one pervasive theme across machine learning theory and practice, though it comes up in such a variety of flavours and colours that it isn't boring. It reminds of the [least action principle](https://en.wikipedia.org/wiki/Stationary-action_principle) of [Maupertuis](https://en.wikipedia.org/wiki/Pierre_Louis_Maupertuis), saying that "everything happens as if some quantity was to be made as small as possible." (This principle has lead the optimists to believe that we live in [the best possible world](https://www.google.co.uk/books/edition/_/WGOmFLikLrkC?hl=en).) But just optimisation doesn't quite do it for machine learning... to really be talking about learning one has to pay attention to generalisation!
 
