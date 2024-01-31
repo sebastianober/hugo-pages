@@ -7,4 +7,4 @@ weight: 3004
 title: "Admission"
 ---
 
-Admission to the CDT will be done through a project by project
+Admission to the CDT will be made on a project-by-project basis. 
