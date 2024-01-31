@@ -18,7 +18,11 @@ In the proposed project the student will investigate and adapt machine learning 
 ***References***
 
 [1] Marx, V. (2021). Method of the Year: spatially resolved transcriptomics. Nature methods, 18(1), 9-14.
+
 [2] Forbes Beadle, L., Love, J. C., Shapovalova, Y., Artemev, A., Rattray, M., & Ashe, H. L. (2023). Combined modelling of mRNA decay dynamics and single-molecule imaging in the Drosophila embryo uncovers a role for P-bodies in 5′ to 3′ degradation. PLoS Biology, 21(1), e3001956.
+
 [3] Alvarez, M. A., Luengo, D., & Lawrence, N. D. (2013). Linear latent force models using Gaussian processes. IEEE transactions on pattern analysis and machine intelligence, 35(11), 2693-2705.
+
 [4] Croix, J. C., Durrande, N., & Alvarez, M. A. (2021). Bayesian inversion of a diffusion model with application to biology. Journal of Mathematical Biology, 83, 1-23.
+
 [5] Kouadri Boudjelthia, I., Milite, S., El Kazwini, N., Fernandez-Mateos, J., Valeri, N., Huang, Y., ... & Sanguinetti, G. (2023). NeuroVelo: interpretable learning of cellular dynamics from single-cell transcriptomic data. bioRxiv, 2023-11.
