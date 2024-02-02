@@ -6,7 +6,7 @@ draft: false
 weight: 4001
 event: "Projects 2024"
 authors: ["henrymoss","sebastianober","tomdiethe"]
-summary: "This project aims to develop interactive machine learning methods that help scientists guide high-throughput screening in drug discovery pipelines."
+summary: "This project aims to develop interactive machine learning methods that help AstraZeneca scientists guide high-throughput screening in drug discovery pipelines."
 ---
 
 Although AI has revolutionised numerous design processes, its impact on end-to-end biologic optimization campaigns, where we design large, complex molecules such as proteins or  antibodies, has so far been limited. In existing ML-guided design algorithms, a crucial assumption is that the problem is fully understood and specified before beginning optimisation. However, this assumption doesn't hold in drug design: distilling the knowledge of scientists, which is often based on intuition and partial information, into computable quantities is challenging. Furthermore, the goals of drug design can change as we gain insight about what constitutes a "good" biologic in the current context. 
